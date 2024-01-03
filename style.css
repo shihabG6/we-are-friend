@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body{
+  background-color: #19172C;
+}
+
+header h1{
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+ 
+}
+
+abbr{
+  text-decoration: none;
+}
+
+.continer-1{
+  display: flex;
+  padding: 20px;
+  width: 95%;
+  margin: auto;
+  justify-content: space-between;
+ 
+}
+.ditels{
+  width: 40%;
+}
+.niloy-img img{
+  height: 200px;
+  width: 40%;
+  background-size: cover;
+  width: auto;
+  border-radius: 20px;
+}
+.ditels h2{
+  display: inline;
+  margin-top: 40px;
+  border: 2px transparent;
+  border-radius: 3px;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+.ditels h2:hover{
+  color: black;
+  background-color:white;
+
+}
+.ditels p{
+  color: gray;
+  margin-top: 5px;
+  font-style: oblique;
+}
+span{
+  color: tomato;
+}
+ 
